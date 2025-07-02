@@ -1,33 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title></title>
-  <style>
-    body { font-family: sans-serif; text-align: center; margin: 20px; }
-    figure { position: relative; display: inline-block; }
-    img { max-width: 100%; height: auto; }
-    .btn-global { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0); border: none; cursor: pointer; }
-    .zona-descripcion { 
-      position: absolute; 
-      width: 1px; 
-      height: 1px; 
-      overflow: hidden; 
-      clip: rect(0 0 0 0); 
-      white-space: nowrap; 
-    }
-    .zona-descripcion:focus { 
-      position: static; 
-      width: auto; 
-      height: auto; 
-      clip: auto; 
-      padding: 5px; 
-      background: yellow; 
-      color: black; 
-      z-index: 10;
-    }
-    figcaption { max-width: 800px; margin: 20px auto; text-align: left; }
-  </style>
 </head>
 
 <body>
@@ -35,12 +8,6 @@
   <figure>
     <img src="imagen.jpg" alt="Imagen interactiva de VII jornadas científicas.">
     <button class="btn-global" aria-label="Pulsar para escuchar audiodescripción enriquecida" onclick="reproducirAudio()"></button>
-    <button class="zona-descripcion" aria-label="Pantalla principal: VII Jornadas Científicas y cerebro con conexiones."></button>
-    <button class="zona-descripcion" aria-label="Pepe, sentado en sillón sobre el escenario."></button>
-    <button class="zona-descripcion" aria-label="Juan, sentado en sillón sobre el escenario."></button>
-    <button class="zona-descripcion" aria-label="José, sentado en sillón sobre el escenario."></button>
-    <button class="zona-descripcion" aria-label="Jesús, sentado en sillón sobre el escenario."></button>
-    <button class="zona-descripcion" aria-label="Perfiles de los asistentes sentados en sus butacas."></button>
 
     <figcaption>
 
